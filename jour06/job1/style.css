@@ -1,0 +1,40 @@
+/* Styles personnalisés */
+
+/* Barre de navigation */
+.navbar {
+    background-color: #343a40; /* Couleur de fond de la barre de navigation */
+  }
+  
+  .navbar-brand,
+  .navbar-nav .nav-link {
+    color: #ffffff; /* Couleur du texte dans la barre de navigation */
+  }
+  
+  /* Section d'introduction */
+  .intro-section {
+    padding: 100px 0; /* Espacement autour de la section d'introduction */
+  }
+  
+  .intro-section h1 {
+    font-size: 36px; /* Taille de la police pour le titre */
+    color: #333333; /* Couleur du texte pour le titre */
+  }
+  
+  /* Sections 'À propos de nous' et 'Nos Services' */
+  .about-section,
+  .services-section {
+    padding: 50px 0; /* Espacement autour des sections */
+  }
+  
+  .about-section h2,
+  .services-section h2 {
+    font-size: 24px; /* Taille de la police pour les titres */
+    color: #333333; /* Couleur du texte pour les titres */
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 50px 0; /* Espacement autour du footer */
+    background-color: #343a40; /* Couleur de fond du footer */
+    color: #ffffff; /* Couleur du texte dans le footer */
+  }
