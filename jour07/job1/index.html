@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site</title>
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+     
+              
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-wrapper container">
+                <a href="#" class="brand-logo">Mon Site</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="index.html">Inscription</a></li>
+                    <li><a href="index.html">Connexion</a></li>
+                    <li><a href="index.html">Rechercher</a></li>
+                </ul>
+            </div> <!-- Ici, vous pouvez ajouter d'autres éléments de navigation si nécessaire -->
+        </nav>
+    </header>
+    <section>
+        <form action="submit_form.php" method="post" class="container">
+            <div class="row">
+                <div class="input-field col s12">
+                    <select>
+                        <option value="" disabled selected>Choisissez votre civilité</option>
+                        <option value="monsieur">Monsieur</option>
+                        <option value="madame">Madame</option>
+                        <option value="autre">Autre</option>
+                    </select>
+                    <label>Civilité</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="prenom" type="text" class="validate">
+                    <label for="prenom">Prénom</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="nom" type="text" class="validate">
+                    <label for="nom">Nom</label>
+                </div>
+                <div class="input-field col s12">
+                    <input id="adresse" type="text" class="validate">
+                    <label for="adresse">Adresse</label>
+                </div>
+                <div class="input-field col s12">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-field col s12">
+                    <input id="password" type="password" class="validate">
+                    <label for="password">Mot de passe</label>
+                </div>
+                <div class="input-field col s12">
+                    <input id="password_confirm" type="password" class="validate">
+                    <label for="password_confirm">Confirmer le mot de passe</label>
+                </div>
+                <div class="input-field col s12">
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Valider
+
+                    </button>
+                </div>
+            </div>
+        </form>
+        
+    </section>
+    <!-- Contenu principal de la page -->
+<br><br><br><br><br>
+    <footer class="page-footer blue darken-3 pushpin-bottom pushpin">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Mon Site</h5>
+                    <p class="grey-text text-lighten-4">Vous trouverez ici des informations sur mon site.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Liens</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="index.html">Accueil</a></li>
+                        <li><a class="grey-text text-lighten-3" href="index.html">Inscription</a></li>
+                        <li><a class="grey-text text-lighten-3" href="index.html">Connexion</a></li>
+                        <li><a class="grey-text text-lighten-3" href="index.html">Rechercher</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2023 Mon Site
+                <a class="grey-text text-lighten-4 right" href="#!">Plus d'infos</a>
+            </div>
+        </div>
+    </footer>
+          
+          <!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
