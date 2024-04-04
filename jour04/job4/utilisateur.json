@@ -1,0 +1,17 @@
+[   
+
+    
+    {
+        "id": 2,
+        "nom": "Godji",
+        "prenom": "Remi",
+        "email": "remi.godji@laplateforme.io"
+    },
+
+    {
+        "id": 3,
+        "nom": "Remi",
+        "prenom": "Godji",
+        "email": "godji.remi@laplateforme.io"
+    }
+]
